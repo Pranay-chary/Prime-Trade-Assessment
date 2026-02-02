@@ -1,0 +1,13 @@
+2026-02-02T16:17:26.678Z - User validation failed: password: Path `password` is required.
+ValidationError: User validation failed: password: Path `password` is required.
+    at model.Document.invalidate (E:\backup_files-main\backend\node_modules\mongoose\lib\document.js:3385:32)
+    at validatePath (E:\backup_files-main\backend\node_modules\mongoose\lib\document.js:3160:13)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Promise.all (index 2)
+    at model.$__validate (E:\backup_files-main\backend\node_modules\mongoose\lib\document.js:3101:3)
+    at model.validate (E:\backup_files-main\backend\node_modules\mongoose\lib\document.js:2672:5)
+    at model.validateBeforeSave (E:\backup_files-main\backend\node_modules\mongoose\lib\plugins\validateBeforeSave.js:34:7)
+    at Kareem.execPre (E:\backup_files-main\backend\node_modules\kareem\index.js:65:24)
+    at model.$__save (E:\backup_files-main\backend\node_modules\mongoose\lib\model.js:369:5)
+    at model.save (E:\backup_files-main\backend\node_modules\mongoose\lib\model.js:609:5)
+

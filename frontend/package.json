@@ -14,7 +14,6 @@
     "@tanstack/react-table": "^8.21.3",
     "axios": "^1.13.4",
     "date-fns": "^4.1.0",
-    "frontend": "file:",
     "lucide-react": "^0.563.0",
     "papaparse": "^5.5.3",
     "react": "^19.2.0",

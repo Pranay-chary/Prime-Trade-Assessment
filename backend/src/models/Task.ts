@@ -1,7 +1,7 @@
 import mongoose, { Document } from 'mongoose';
 
 export interface ITask extends Document {
-  user: mongoose.Schema.Types.ObjectId;
+  user: mongoose.Types.ObjectId;
   title: string;
   description: string;
   completed: boolean;
